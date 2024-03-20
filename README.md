@@ -1,16 +1,15 @@
-# kp
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+***** PLEASE CONSIDER THIS BEFORE YOU USE THIS REPO ************
+after you clone this repo , 
+open repo and go to it's terminal
+run this command *flutter pub get * to get all dependencies
+visit appwrite website , create an account after create a project and register it according to appwrite documentation
+create database and collection
+go to your codes and navigate to appwrite folder in constants folder located in lib folder create a document there
+called 'appwrite_constants.dart'
+create a class like this and go pass in your values
+class AppwriteConstants {
+  static const String appwriteProjectId = " ";
+  static const String appwriteDatabaseId = ' ';
+  static const String appwriteUrl = "https://cloud.appwrite.io/v1";
+  static const String collectionUsers = ' ';
+}
